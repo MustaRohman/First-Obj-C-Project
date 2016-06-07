@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		EE96B4531D05C5D2004B0149 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EE96B4521D05C5D2004B0149 /* main.m */; };
+		EE96B45C1D05E56D004B0149 /* Mobile.m in Sources */ = {isa = PBXBuildFile; fileRef = EE96B45B1D05E56D004B0149 /* Mobile.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +26,8 @@
 /* Begin PBXFileReference section */
 		EE96B44F1D05C5D2004B0149 /* FirstProject */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = FirstProject; sourceTree = BUILT_PRODUCTS_DIR; };
 		EE96B4521D05C5D2004B0149 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EE96B45A1D05E56D004B0149 /* Mobile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Mobile.h; sourceTree = "<group>"; };
+		EE96B45B1D05E56D004B0149 /* Mobile.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Mobile.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +61,8 @@
 			isa = PBXGroup;
 			children = (
 				EE96B4521D05C5D2004B0149 /* main.m */,
+				EE96B45A1D05E56D004B0149 /* Mobile.h */,
+				EE96B45B1D05E56D004B0149 /* Mobile.m */,
 			);
 			path = FirstProject;
 			sourceTree = "<group>";
@@ -119,6 +124,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				EE96B4531D05C5D2004B0149 /* main.m in Sources */,
+				EE96B45C1D05E56D004B0149 /* Mobile.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
